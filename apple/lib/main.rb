@@ -14,6 +14,10 @@ def middle_line
   middle << "\n"
 end
 
+def conclusion_line
+  "And that was it."
+end
+
 def story
   first = first_line
   middle = middle_line
