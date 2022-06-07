@@ -29,7 +29,7 @@ def story_letter_count(story)
 end
 
 def letter_count(beginning, middle, conclusion)
-  beginning.size + middle.size + conclusion.size
+  story_letter_count(Story.new(beginning, middle, conclusion))
 end
 
 
