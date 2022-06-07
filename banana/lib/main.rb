@@ -31,6 +31,13 @@ def letter_count(beginning, middle, conclusion)
   beginning.size + middle.size + conclusion.size
 end
 
+
+def story_period_count(story)
+  story.beginning.scan(/\./).size +
+  story.middle.scan(/\./).size +
+  story.conclusion.scan(/\./).size
+end
+
 def period_count(beginning, middle, conclusion)
   beginning.scan(/\./).size +
   middle.scan(/\./).size +
