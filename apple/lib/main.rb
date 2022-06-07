@@ -22,7 +22,7 @@ def story
   first = first_line
   middle = middle_line
   conclusion = conclusion_line
-  first + middle + conclusion
+  first_line + middle + conclusion
 end
 
 
