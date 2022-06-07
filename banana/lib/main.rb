@@ -4,6 +4,9 @@
 #       write.
 
 class Story
+
+  def attr_reader :beginning, :middle, :conclusion
+
   def initialize(beginning, middle, conclusion)
     @beginning = beginning
     @middle = middle
