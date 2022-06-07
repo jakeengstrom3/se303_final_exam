@@ -21,7 +21,7 @@ end
 def story
   first = first_line
   middle = middle_line
-  conclusion = "And that was it."
+  conclusion = conclusion_line
   first + middle + conclusion
 end
 
