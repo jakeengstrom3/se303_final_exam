@@ -23,6 +23,10 @@ def word_count(beginning, middle, conclusion)
   conclusion.split.size
 end
 
+def story_letter_count(story)
+  story.beginning.size + story.middle.size + story.conclusion.size
+end
+
 def letter_count(beginning, middle, conclusion)
   beginning.size + middle.size + conclusion.size
 end
