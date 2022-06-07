@@ -3,7 +3,7 @@
 # Hint: Let the existing functions use the new code that you
 #       write.
 
-class story
+class Story
   def initialize(beginning, middle, conclusion)
     @beginning = beginning
     @middle = middle
