@@ -40,7 +40,5 @@ def story_period_count(story)
 end
 
 def period_count(beginning, middle, conclusion)
-  beginning.scan(/\./).size +
-  middle.scan(/\./).size +
-  conclusion.scan(/\./).size
+  story_period_count(Story.new(beginning, middle, conclusion))
 end
