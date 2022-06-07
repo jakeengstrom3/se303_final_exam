@@ -2,7 +2,7 @@
 # To cure it, apply "extract function".
 
 def story
-  first = "Mr. Dursley was the director of a firm called Grunnings, which made drills.\n\n\n\n\n"
-  conclusion = "And that was it."
-  first + conclusion
+  first = "Mr. Dursley was the director of a firm called Grunnings, which made drills.\n\n\n\n\nAnd that was it."
+  
+  first
 end
