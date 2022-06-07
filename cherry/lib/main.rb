@@ -26,5 +26,5 @@ def repeat
   (0..5).each do |i|
     result += data[i]
   end
-  result
+  loopObject
 end
