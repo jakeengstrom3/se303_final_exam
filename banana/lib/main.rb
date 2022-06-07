@@ -11,6 +11,12 @@ class story
   end
 end
 
+def story_word_count(story)
+  story.beginning.split.size +
+  story.middle.split.size +
+  story.conclusion.split.size
+end
+
 def word_count(beginning, middle, conclusion)
   beginning.split.size +
   middle.split.size +
