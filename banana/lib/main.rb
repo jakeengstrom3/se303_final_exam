@@ -5,7 +5,7 @@
 
 class Story
 
-  def attr_reader :beginning, :middle, :conclusion
+  attr_reader :beginning, :middle, :conclusion
 
   def initialize(beginning, middle, conclusion)
     @beginning = beginning
@@ -21,9 +21,7 @@ def story_word_count(story)
 end
 
 def word_count(beginning, middle, conclusion)
-  beginning.split.size +
-  middle.split.size +
-  conclusion.split.size
+  story_word_count(Story.new(beginning, middle, conclusion))
 end
 
 def story_letter_count(story)
