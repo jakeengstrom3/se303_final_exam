@@ -21,7 +21,7 @@ end
 def repeat
   data = ["This", "is", "the", "data", "to", "use"]
   loopObject = data
-  loopObject.join
+    .join
   result = ""
   (0..5).each do |i|
     result += data[i]
